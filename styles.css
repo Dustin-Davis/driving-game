@@ -1,0 +1,33 @@
+body {
+  background-color: green;
+}
+
+.container {
+  overflow: hidden;
+  position: relative;
+  height: 95vh;
+}
+
+#car {
+  position: absolute;
+}
+
+#car > img {
+  width: 200px;
+}
+
+.rotate90 {
+  transform: rotate(90deg);
+}
+
+.rotate180 {
+  transform: rotate(180deg);
+}
+
+.rotate270 {
+  transform: rotate(-90deg);
+}
+
+.column-full {
+  width: 100%;
+}
